@@ -1,0 +1,63 @@
+Cruthaich Application Design
+----------------------------
+
+Version 0.1.0
+
+Tables:
+
+  _application
+    - a list of the applications being worked on.
+    
+  _user
+    - the users of Cruthaich or of the applications being developed.
+    
+  _role
+    - the roles that users can have.  Either specific to one application or global.
+    
+  _user_role       
+    - the role assigned to a user.  Users can have several roles.
+    
+  _version         
+  
+  _requirement     
+  
+  _feature         
+  
+  _database        
+  
+  _table           
+  
+  _column          
+  
+  _test            
+  
+  _test_run        
+  
+  _test_exception  
+  
+  _template        
+  
+  _template_region 
+  
+  _page            
+  
+  _relationship    
+  
+  _view            
+  
+  _view_column     
+  
+  _function        
+  
+  _form            
+  
+  _field           
+  
+  _parameter       
+  
+  _datatype
+  
+  _priority
+  
+ 
+
