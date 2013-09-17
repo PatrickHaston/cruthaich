@@ -1,0 +1,18 @@
+{
+    "name" : {
+      "datatype" : "text",
+      "size" : "32",
+      "nullable" : "no"
+    },
+    "database_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no",
+      "default" : "0"
+    },
+    "description" : {
+      "datatype" : "text",
+      "size" : "500",
+      "nullable" : "yes"
+    }
+}

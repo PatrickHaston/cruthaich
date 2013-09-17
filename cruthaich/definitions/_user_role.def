@@ -1,0 +1,13 @@
+{
+    "user_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "default" : "@user",
+      "nullable" : "no"
+    },
+    "role_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no"
+    }
+}

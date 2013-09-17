@@ -1,0 +1,73 @@
+{ 
+    "_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no",
+      "default" : "@auto",
+      "primary" : "yes"
+    },
+    "_created_on" : {
+      "datatype" : "date",
+      "size" : "datetime",
+      "nullable" : "no",
+      "default" : "@now"
+    },
+    "_created_by" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no",
+      "default" : "@user"
+    },
+    "_updated_on" : {
+      "datatype" : "date",
+      "size" : "datetime",
+      "nullable" : "yes"
+    },
+    "_updated_by" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    },
+    "username" : {
+      "datatype" : "text",
+      "size" : "100",
+      "nullable" : "no"
+    },
+    "email" : {
+      "datatype" : "text",
+      "size" : "256",
+      "nullable" : "no"
+    },
+    "first_name" : {
+      "datatype" : "text",
+      "size" : "100",
+      "nullable" : "yes"
+    },
+    "last_name" : {
+      "datatype" : "text",
+      "size" : "100",
+      "nullable" : "yes"
+    },
+    "password" : {
+      "datatype" : "text",
+      "size" : "500",
+      "nullable" : "yes"
+    },
+    "password_expiry" : {
+      "datatype" : "date",
+      "size" : "datetime",
+      "nullable" : "yes"
+    },
+    "invalid_password_count" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no",
+      "default: "0"
+    },
+    "_status" : {
+      "datatype" : "text",
+      "size" : "1",
+      "nullable" : "no",
+      "default" : "1"
+    }
+}

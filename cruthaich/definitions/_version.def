@@ -1,0 +1,18 @@
+{
+    "version_number" : {
+      "datatype" : "text",
+      "size" : "30",
+      "nullable" : "no"
+    },
+    "parent_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no",
+      "default" : "0"
+    },
+    "merged_with" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    }
+}

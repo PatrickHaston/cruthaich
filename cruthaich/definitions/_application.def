@@ -1,0 +1,36 @@
+{ 
+    "_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no",
+      "default" : "@auto",
+      "primary" : "yes"
+    },
+    "_created_on" : {
+      "datatype" : "date",
+      "size" : "datetime",
+      "nullable" : "no",
+      "default" : "@now"
+    },
+    "_created_by" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no",
+      "default" : "@user"
+    },
+    "_updated_on" : {
+      "datatype" : "date",
+      "size" : "datetime",
+      "nullable" : "yes"
+    },
+    "_updated_by" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    },
+    "name" : {
+      "datatype" : "text",
+      "size" : "100",
+      "nullable" : "no"
+    }
+}

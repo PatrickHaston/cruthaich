@@ -1,0 +1,12 @@
+{
+    "name" : {
+      "datatype" : "text",
+      "size" : "32",
+      "nullable" : "no"
+    },
+    "defined_by_requirement_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    }
+}

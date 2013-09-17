@@ -1,0 +1,52 @@
+{ 
+    "_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no",
+      "default" : "@auto",
+      "primary" : "yes"
+    },
+    "_created_on" : {
+      "datatype" : "date",
+      "size" : "datetime",
+      "nullable" : "no",
+      "default" : "@now"
+    },
+    "_created_by" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "no",
+      "default" : "@user"
+    },
+    "_updated_on" : {
+      "datatype" : "date",
+      "size" : "datetime",
+      "nullable" : "yes"
+    },
+    "_updated_by" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    },
+    "_application_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    },
+    "_from_version_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    },
+    "_to_version_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    },
+    "_status" : {
+      "datatype" : "text",
+      "size" : "1",
+      "nullable" : "no",
+      "default" : "1"
+    }
+}

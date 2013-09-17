@@ -1,0 +1,27 @@
+{
+    "name" : {
+      "datatype" : "text",
+      "size" : "100",
+      "nullable" : "no"
+    },
+    "reference" : {
+      "datatype" : "text",
+      "size" : "30",
+      "nullable" : "yes"
+    },
+    "description" : {
+      "datatype" : "text",
+      "size" : "2000",
+      "nullable" : "yes"
+    },
+    "priority_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    },
+    "target_release_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    }    
+}

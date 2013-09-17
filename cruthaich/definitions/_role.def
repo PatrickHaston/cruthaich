@@ -1,0 +1,7 @@
+{
+    "name" : {
+      "datatype" : "text",
+      "size" : "32",
+      "nullable" : "no"
+    }
+}

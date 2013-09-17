@@ -1,0 +1,32 @@
+{
+    "name" : {
+      "datatype" : "text",
+      "size" : "100",
+      "nullable" : "no"
+    },
+    "reference" : {
+      "datatype" : "text",
+      "size" : "30",
+      "nullable" : "yes"
+    },
+    "description" : {
+      "datatype" : "text",
+      "size" : "2000",
+      "nullable" : "yes"
+    },
+    "feature_id" : {
+      "datatype" : "number",
+      "size" : "int",
+      "nullable" : "yes"
+    },
+    "test_script" : {
+      "datatype" : "text",
+      "size" : "2000",
+      "nullable" : "yes"
+    },
+    "expected_result" : {
+      "datatype" : "text",
+      "size" : "2000",
+      "nullable" : "yes"
+    }
+}
