@@ -6,7 +6,7 @@ Released under an MIT Licence.
 
 We aim to make the best tool for creating web-based database applications: we aim high!
 
-Cruthaich is the Scottish Gaelic word for create and is pronounced crooth-eech (ch as in Scottish loch).
+Cruthaich is the Scottish Gaelic word for create and is pronounced croo-eech (ch as in Scottish loch).
 
 
 Project Status
